@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Webapp Home</title>
+</head>
+
+<body style="height: 100%;">
+<div class="body_block" style="height: 100%;bottom: 0; right: 0;left: 0;position: absolute; min-width: 930px;">
+    <div id="mainbody" style="display: table; min-height: 100%;width: 100%;">
+        <div style="display: table-row;">
+            <div style="display: table-cell;">
+                <div id="react_webapp"></div>
+                <script type="text/javascript"
+                        src="{{ url_for('static', filename="js/built/client.min.js") }}"></script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
